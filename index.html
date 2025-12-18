@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penina Strong Oldroyd | Professional Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b1c2d;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #081524;
+      padding: 20px 40px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #d1d9e6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section {
+      background-color: #102a44;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #1f4e79;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* ABOUT ME LAYOUT */
+    .about-container {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .about-text {
+      flex: 2;
+    }
+
+    .about-text p {
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #d1d9e6;
+    }
+
+    .about-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Image placeholder frame */
+    .image-frame {
+      width: 220px;
+      height: 280px;
+      border: 3px solid #1f4e79;
+      border-radius: 10px;
+      background-color: #0b1c2d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .resume-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      background-color: #1f4e79;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+
+    .resume-link:hover {
+      background-color: #2f6fa3;
+    }
+
+    footer {
+      background-color: #081524;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <strong>Professional Portfolio</strong>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>J. Penina Strong Oldroyd</h1>
+      <p>Information Systems Student</p>
+    </section>
+
+    <div class="container">
+
+      <section class="section">
+        <h2>About Me</h2>
+
+        <div class="about-container">
+          <div class="about-text">
+            <p>
+              I am an undergraduate Information Systems student with a strong foundation in organization, communication, and data-driven problem solving. Through roles in university admissions, a CPA firm, and educational settings, I have developed a reputation for being reliable, detail-oriented, and adaptable in fast-paced environments.
+            </p>
+
+            <p>
+              I am especially interested in how information systems support decision-making and improve operational efficiency. My experience working with data platforms, confidential records, and diverse stakeholders has strengthened both my technical skills and my ability to communicate clearly and professionally.
+            </p>
+
+            <p>
+              I am motivated by opportunities that allow me to learn continuously, contribute meaningfully to a team, and apply technology to solve real-world problems.
+            </p>
+          </div>
+
+          <div class="about-image">
+            <div class="image-frame">
+              <img src = "Profile Pic LinkedIn.jpg" alt="Professional headshot">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Resume</h2>
+        <p>View my resume to learn more about my education, experience, and skills.</p>
+        <a class="resume-link" href="resume.html">View My Resume</a>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 J. Penina Strong Oldroyd</p>
+  </footer>
+
+</body>
+</html>

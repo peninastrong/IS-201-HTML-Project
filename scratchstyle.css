@@ -1,0 +1,81 @@
+/* 1. CUSTOM BACKGROUND & FONTS*/
+body {
+    /* Athletic but aethestic background */
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #2c3e50; /* Blueish gray */
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+/* 2. DIV STYLE 1: MAIN CONTAINER */
+.main-container {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #ffffff; /* white */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Navigation styling */
+nav {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Styling your photo */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+/* 3. DIV STYLE 2: CONTENT BLOCKS */
+.content-block {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 8px;
+    border-left: 5px solid #0a1973; /* Navy Blue */
+}
+
+/* 4. DIV STYLE 3: TABLEAU PLACEHOLDER*/
+.tableauPlaceholder {
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Heading styles */
+h1, h3 {
+    color: #1a252f;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-transform: uppercase;
+}
+
+/* 5. BACK TO TOP (Anchor)*/
+.back-to-top {
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #f03608; /* Red Devil Red */
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The visible placeholder frame */
+.image-frame {
+  width: 220px;
+  height: 280px;
+  border: 3px solid #1f4e79;
+  border-radius: 10px;
+  background-color: #0b1c2d; /* blends with site */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Image constrained inside the frame */
+.image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
